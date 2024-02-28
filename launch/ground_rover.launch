@@ -1,0 +1,8 @@
+<launch>
+    <!-- Load the urdf into the parameter server. -->
+    <param name="robot_description" textfile="$(find ground_rover)/src/urdf/ground_rover.urdf"/>
+     
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+       
+     </node>
+   </launch>
